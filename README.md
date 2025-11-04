@@ -2,7 +2,7 @@
 
 Um mini-compilador que converte declarações de variáveis JavaScript (estilo `var`) para código Python equivalente. Este projeto demonstra os conceitos fundamentais de compiladores, implementando um transpilador completo com análise léxica e sintática.
 
-## 📋 Descrição
+## Descrição
 
 O transpilador lê declarações de variáveis no formato JavaScript (`var nome = valor;`) e gera código Python equivalente. Durante o processo, exibe logs detalhados com análise hexadecimal dos valores processados.
 
@@ -17,7 +17,7 @@ x = 10
 nome = 'Lucas'
 ```
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 O projeto implementa as principais fases de um compilador:
 
@@ -33,7 +33,7 @@ O arquivo `transpiler.py` contém:
 - **`Transpiler`**: Classe responsável pela análise sintática e geração de código
 - **`main()`**: Função principal que interage com o usuário
 
-## 🔍 Componentes Detalhados
+## Componentes Detalhados
 
 ### Token
 
@@ -139,7 +139,7 @@ Função principal que interage com o usuário:
   - Chama `transpiler.run()` e exibe o resultado
 - Trata exceções (erros de parsing, interrupção por Ctrl+C)
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Requisitos
 
@@ -215,7 +215,7 @@ teste = 123
 
 Digite `'sair'` para encerrar o programa.
 
-## 📊 Análise Hexadecimal
+## Análise Hexadecimal
 
 O transpilador exibe a representação hexadecimal dos valores processados:
 
@@ -225,7 +225,7 @@ O transpilador exibe a representação hexadecimal dos valores processados:
 - **Strings**: Hexadecimal de cada caractere (código Unicode)
   - Exemplo: `"ola"` → `0x6f 0x6c 0x61` (o, l, a)
 
-## 🎯 Conceitos de Compiladores Demonstrados
+## Conceitos de Compiladores Demonstrados
 
 Este projeto demonstra:
 
@@ -247,7 +247,7 @@ Este projeto demonstra:
    - Validação de tokens inesperados
    - Mensagens de erro descritivas
 
-## 🐛 Tratamento de Erros
+## Tratamento de Erros
 
 O programa trata os seguintes erros:
 
@@ -270,7 +270,7 @@ Digite suas declarações: var x @ 10;
 Erro: Caractere não reconhecido: @
 ```
 
-## 📝 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```
 Compiladores/
@@ -278,7 +278,7 @@ Compiladores/
 └── README.md        # Esta documentação
 ```
 
-## 🔧 Como Funciona Internamente
+## Como Funciona Internamente
 
 ### Fluxo de Execução
 
@@ -321,10 +321,10 @@ Processando ('x', 10): Hex: 0xa
 x = 10
 ```
 
-## 👨‍💻 Autor
+## Autor
 
 João Vitor de Siqueira Campos
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins educacionais.
