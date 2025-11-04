@@ -323,7 +323,7 @@ x = 10
 
 ## 👨‍💻 Autor
 
-Projeto de Compiladores - Faculdade
+João Vitor de Siqueira Campos
 
 ## 📄 Licença
 
